@@ -117,8 +117,8 @@ def weather_check(user_in):
 
         my_dict = {
                 'curr_location': curr_location,
-                'curr_conditions': get_condition(location_key)}
-    #       my_dict['curr_forecast'] = get_forecast(location_key)
+                'curr_conditions': get_condition(location_key)
+                }
     except BadWeatherInput:
         raise BadWeatherInput()
     return my_dict
@@ -154,13 +154,6 @@ def zip_search():
         raise BadInput()
 
     return render_template('weather.html', my_dict = temp_dict)
-
-
-#@app.route('/view_weather')
-#def view_weather():
-
-  #  return render_template('weather.html')
-
 
 if __name__ == '__main__':
     app.run(debug=True)

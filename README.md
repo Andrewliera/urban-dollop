@@ -7,9 +7,6 @@
 > Description: now that classes are over I don't know what type of project to play with, so I'll try to tweak something I recently worked on first
 ------------------------------------------------------------------------------------------------
 
-**Packages:**
- - Flask
-
 **current progress:**
  - [X] simple front end 
  - [X] connect accuweather api
